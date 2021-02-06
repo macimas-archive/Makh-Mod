@@ -1,0 +1,25 @@
+{
+	"type": "ItemTurret",
+	"name": "Ubica",
+	"description": "It doesn't like cats for some reason.",
+	"category": "turret",
+	"size": 2,
+	"outlineIcon": false,
+	"range": 192,
+	"maxAmmo": 100,
+	"shots": 20,
+	"ammoPerShot": 20,
+	"spread": 2,
+	"reloadTime": 2,
+	"ammoTypes": {
+		"silicon": {
+			"type": "BasicBulletType",
+			"speed": 10,
+			"damage": 80,
+		},
+	},
+	"requirements": [
+		{"item":"silicon","amount":800},
+		{"item":"copper","amount":275},
+	]
+}
